@@ -43,6 +43,7 @@ public class Principal{
 
         CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
         calculadora.inclui(meuFilme);
+        /// //////
         calculadora.inclui(meuFilme1);
         calculadora.inclui(Lost);
         System.out.println("calculando o total: "+calculadora.getTempoTotal());
